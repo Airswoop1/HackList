@@ -24,11 +24,11 @@ app.use(express.urlencoded());
 //app.use(app.router);
 app.use(express.static('public'));
 //app.use(express.multipart());
-//app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname, 'views'));
 
 
 app.get("/",function(req,res){
-    res.render('index');
+    res.render('views/index');
 });
 
 
