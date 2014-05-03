@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HackList</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="../index_form.js"></script>
+</head>
+<body>
+
+    <h2>HackList
+        <h3>A marketplace for your hacks.</h3>
+    </h2>
+
+    <form action="/submitHack" method="post">
+        <span>Title</span>
+        <input type="text" name="title"/>
+
+        <span>Are you a:</span>
+        <span>Hacker</span>
+        <input type="checkbox" name="role" value="hacker"/>
+        <span>Buyer</span>
+        <input type="checkbox" name="role" value="buyer"/>
+
+        <span>Email:</span>
+        <input type="text" name="email"/>
+
+        <span>Description: </span>
+        <input type="text" name="description"/>
+        <br/>
+        <span>Which APIs did you use?</span>
+        <div id="InputsWrapper">
+            <div>
+                <input type="text" name="mytext[]" id="field_1" value="Text 1">
+                <a href="#" class="removeclass">×</a>
+            </div>
+        </div>
+        <button id="AddMoreButton">Add More</button>
+        <br/>
+        <span>Submit</span>
+        <input type="submit"/>
+
+    </form>
+
+</body>
+</html>

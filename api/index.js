@@ -5,8 +5,7 @@
 var index = (function(){
 
     var execute = function(req, res){
-        console.log("HI");
-        res.send(200)
+        res.render("index.html");
     }
 
     return{
