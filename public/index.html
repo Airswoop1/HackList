@@ -1,57 +1,289 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>HackList</title>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="../index_form.js"></script>
-    <script src="/socket.io/socket.io.js"></script>
-    <script>
-        var socket = io.connect('http://localhost:1337');
-        socket.on('news', function (data) {
-            console.log(data);
-            socket.emit('buyer_interested', { my: 'data' });
-        });
-    </script>
+	<title>HackList.io - Marketplace for Technical Projects</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-</head>
+    <link href="css/compiled/theme.css" rel="stylesheet" media="screen">
+    <link href="css/vendor/font-awesome.min.css" rel="stylesheet">
+    <link href="css/vendor/flexslider.css" rel="stylesheet" media="screen">
+
+    <!-- Style -->
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
+
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+    <!--[if IE 7]>
+	  <link rel="stylesheet" href="css/font-awesome-ie7.min.css">
+	<![endif]-->
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Ubuntu:300,400,500,700,300italic,400italic,500italic|Open+Sans:300italic,400,300,600,700|Montserrat:400,300,500,700,900|Roboto:400,700' rel='stylesheet' type='text/css'></head>
 <body>
+	 <header class="navbar navbar-inverse navbar-fixed-top" role="banner">
+    <div class="container" >
+      <div class="navbar-header">
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="index.html" class="navbar-brand">
+          Hacklist.io
+        </a>
+      </div>
 
-    <h2>HackList
-        <h3>A marketplace for your hacks.</h3>
-    </h2>
+      <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="projects.html">Projects</a>
+                </li>
+                <li>
+                    <a href="buyers.html">Buyers</a>
+                </li>
+                <li>
+                    <a href="faq.html">FAQ</a>
+                </li>
+                <li style="border-right: 1px rgba(255,255,255,0.14) solid;">
+                    <a href="contact.html">Contact</a>
+                </li>
+                
+                <li class="sign-btn" style="margin-left:315px;">
+                    <a href="signin.html">Sign In</a>
+                </li>
+                <li class="sign-btn" style="margin-left:5px;">
+                    <a href="signup.html">Sign Up</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+  </header>
 
-    <form action="/submitHack" method="post" enctype="multipart/form-data">
-        <span>Title</span>
-        <input type="text" name="title"/>
+	<!-- Banner -->
+				
+	
 
-        <span>Are you a:</span>
-        <span>Hacker</span>
-        <input type="checkbox" name="role" value="hacker"/>
-        <span>Buyer</span>
-        <input type="checkbox" name="role" value="buyer"/>
+  <section id="portfolio">
+    <!-- 3 columns -->
+    <div class="inner-block" style="background-color: rgba(0, 0, 0, 0.05);">
+      <div class="container" style="width:900px;background-color: rgba(244, 247, 255, 0.95);
+border-radius:3px;">
+        <header>
+        	<h1>Built something cool? <a href="signup.html">Sell it on Hacklist.io</a></h1>
+        </header>
+       </div>
+      </div>
+  </section>
 
-        <span>Email:</span>
-        <input type="text" name="email"/>
-
-        <span>Description: </span>
-        <input type="text" name="description"/>
-        <br/>
-        <span>Which APIs did you use?</span>
-        <div id="InputsWrapper">
-            <div>
-                <input type="text" name="apis[]" id="field_1" value="Text 1">
-                <a href="#" class="removeclass">×</a>
+  <section id="portfolio">
+    <!-- 3 columns -->
+    <div class="inner-block" style="background-color: rgba(0, 0, 0, 0.05);padding-left: 0px;padding-top:0px;">
+      <div class="container" style="width:900px;background-color: rgba(255, 255, 255, 0.95);
+border-radius:3px;">
+        <header>
+		<h1>Featured Projects</h1>
+		</header>
+        <div class="row">
+          <div class="col-sm-4 col-md-4 col-lg-4">
+            <div class="photo">
+              <div class="pic">
+                <a href="#">
+                  <center><img class="pic img-responsive" src="http://3.bp.blogspot.com/_sddTgh0B9MA/SxFGyyggaHI/AAAAAAAAAEs/Z2rWVWyYKOY/s1600/Website+Print+Screen.jpg" height="150px!important" style="height:200px;border-radius: 3px;" alt=""></center>
+                  <img class="see_more" src="http://imgur.com/MB0rAtE.png" />
+                </a>
+              </div>
+              <h3><a href="#">Hacklist.io</a></h3>
+              <p class="box-1"><b>Description:</b> Marketplace for Development</p>
+              <p class="box-1"><b>Industry:</b> <span class="mini-button">Marketplaces</span></p>
+              <p class="box-1"><b>APIs:</b> <span class="mini-button">Mailjet</span> <span class="mini-button">Crunchbase</span> <span class="mini-button">Microsoft</span></p>
+              <p class="box-1"><b>Framework:</b> <span class="mini-button">Node.js</span></p>
+              <p class="box-1"><b>Price Range:</b> <span class="mini-button">$1,000 - $2,000</span></p>
             </div>
+          </div>
+          <div class="col-sm-4 col-md-4 col-lg-4">
+            <div class="photo">
+              <div class="pic">
+                <a href="#">
+                  <center><img class="pic img-responsive" src="http://3.bp.blogspot.com/_sddTgh0B9MA/SxFGyyggaHI/AAAAAAAAAEs/Z2rWVWyYKOY/s1600/Website+Print+Screen.jpg" height="150px!important" style="height:200px;border-radius: 3px;" alt=""></center>
+                  <img class="see_more" src="http://imgur.com/MB0rAtE.png" />
+                </a>
+              </div>
+              <h3><a href="#">Hacklist.io</a></h3>
+              <p class="box-1"><b>Description:</b> Marketplace for Development</p>
+              <p class="box-1"><b>Industry:</b> <span class="mini-button">Marketplaces</span></p>
+              <p class="box-1"><b>APIs:</b> <span class="mini-button">Mailjet</span> <span class="mini-button">Crunchbase</span> <span class="mini-button">Microsoft</span></p>
+              <p class="box-1"><b>Framework:</b> <span class="mini-button">Node.js</span></p>
+              <p class="box-1"><b>Price Range:</b> <span class="mini-button">$1,000 - $2,000</span></p>
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-4 col-lg-4">
+            <div class="photo">
+              <div class="pic">
+                <a href="#">
+                  <center><img class="pic img-responsive" src="http://3.bp.blogspot.com/_sddTgh0B9MA/SxFGyyggaHI/AAAAAAAAAEs/Z2rWVWyYKOY/s1600/Website+Print+Screen.jpg" height="150px!important" style="height:200px;border-radius: 3px;" alt=""></center>
+                  <img class="see_more" src="http://imgur.com/MB0rAtE.png" />
+                </a>
+              </div>
+              <h3><a href="#">Hacklist.io</a></h3>
+              <p class="box-1"><b>Description:</b> Marketplace for Development</p>
+              <p class="box-1"><b>Industry:</b> <span class="mini-button">Marketplaces</span></p>
+              <p class="box-1"><b>APIs:</b> <span class="mini-button">Mailjet</span> <span class="mini-button">Crunchbase</span> <span class="mini-button">Microsoft</span></p>
+              <p class="box-1"><b>Framework:</b> <span class="mini-button">Node.js</span></p>
+              <p class="box-1"><b>Price Range:</b> <span class="mini-button">$1,000 - $2,000</span></p>
+            </div>
+          </div>
+
+         
         </div>
-        <button id="AddMoreButton">Add More</button>
-        <br/>
-        <span>Upload Image:</span>
-        <input type="file" name="hack_image"/>
-        <br/>
-        <span>Submit</span>
-        <input type="submit"/>
+    </div>
+</div>
 
-    </form>
+  </section>
 
+
+
+  <section id="portfolio">
+    <!-- 3 columns -->
+    <div class="inner-block" style="background-color: rgba(0, 0, 0, 0.05);padding-left: 0px;padding-top:0px;">
+      <div class="container" style="width:900px;background-color: rgba(255, 255, 255, 0.95);
+border-radius:3px;">
+        <header>
+		<h1>Featured Buyers</h1>
+		</header>
+        <div class="row">
+          <div class="col-sm-4 col-md-4 col-lg-4">
+            <div class="photo">
+              <div class="pic">
+                <a href="#">
+                  <center style="background-color: #000;
+border-radius: 3px;"><img class="pic img-responsive" src="https://pbs.twimg.com/profile_images/431589071660384256/OI91J7E9.jpeg" height="150px!important" style="height:200px" alt=""></center>
+                  <img class="see_more" src="http://imgur.com/MB0rAtE.png" />
+                </a>
+              </div>
+              <h3><a href="#">Eugene Joseph</a></h3>
+             <p class="box-1"><b>Bio:</b> Front-End Developer</p>
+              <p class="box-1"><b>Industries:</b> <span class="mini-button">Education</span></p>
+              <p class="box-1"><b>Price:</b><span class="mini-button">$100</span></p>
+              <p class="box-1"><b>Framework:</b> <span class="mini-button">Javascript</span></p>
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-4 col-lg-4">
+            <div class="photo">
+              <div class="pic">
+                <a href="#">
+                  <center style="background-color: #000;
+border-radius: 3px;"><img class="pic img-responsive" src="https://pbs.twimg.com/profile_images/431589071660384256/OI91J7E9.jpeg" height="150px!important" style="height:200px" alt=""></center>
+                  <img class="see_more" src="http://imgur.com/MB0rAtE.png" />
+                </a>
+              </div>
+              <h3><a href="">Eugene Joseph</a></h3>
+             <p class="box-1"><b>Bio:</b> Front-End Developer</p>
+              <p class="box-1"><b>Industries:</b> <span class="mini-button">Education</span></p>
+              <p class="box-1"><b>Price:</b><span class="mini-button">$100</span></p>
+              <p class="box-1"><b>Framework:</b> <span class="mini-button">Javascript</span></p>
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-4 col-lg-4">
+            <div class="photo">
+              <div class="pic">
+                <a href="#">
+                  <center style="background-color: #000;
+border-radius: 3px;"><img class="pic img-responsive" src="https://pbs.twimg.com/profile_images/431589071660384256/OI91J7E9.jpeg" height="150px!important" style="height:200px" alt=""></center>
+                  <img class="see_more" src="http://imgur.com/MB0rAtE.png" />
+                </a>
+              </div>
+              <h3><a href="#">Eugene Joseph</a></h3>
+             <p class="box-1"><b>Bio:</b> Front-End Developer</p>
+              <p class="box-1"><b>Industries:</b> <span class="mini-button">Education</span></p>
+              <p class="box-1"><b>Price:</b><span class="mini-button">$100</span></p>
+              <p class="box-1"><b>Framework:</b> <span class="mini-button">Javascript</span></p>
+            </div>
+          </div>
+          
+         
+        </div>
+    </div>
+</div>
+
+  </section>
+
+
+  <section id="portfolio">
+    <!-- 3 columns -->
+    <div class="inner-block" style="padding-top: 0px;background-color: rgba(0, 0, 0, 0.05);">
+      <div class="container" style="width:900px;background-color: rgba(255, 255, 255, 0.95);
+border-radius:3px;">
+        <header>
+        	<h1>APIs Used</h1>
+        	<p><img class="img-responsive" src="http://i.imgur.com/3i5IUrQ.png"></p>
+        </header>
+       </div>
+      </div>
+  </section>
+
+
+  <section id="portfolio">
+    <!-- 3 columns -->
+    <div class="inner-block" style="padding-top: 0px;background-color: rgba(0, 0, 0, 0.05);">
+      <div class="container" style="width:900px;background-color: rgba(255, 255, 255, 0.95);
+border-radius:3px;">
+        <header>
+        	<h1>Think of other ways you can use our product?</h1>
+        	<h1><a href="#" class="btn btn-green" style="display: inline-block;
+margin-bottom: 0;
+border-radius: 2px;
+text-align: center;
+vertical-align: middle;
+font-weight: bold;
+line-height: 1.4;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+white-space: nowrap;
+cursor: pointer;
+border: 0;
+padding: 10px 19px;
+background-color: #2badf3;
+background-image: -webkit-linear-gradient(#2badf3, #2492db);
+background-image: linear-gradient(#2badf3, #2492db);
+border: 1px solid #106fa9;
+color: #fff;
+text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
+box-shadow: 0 1px 2px 0 rgba(0,0,0,0.18),inset 0 0 1px 1px rgba(255,255,255,0.09);">Get in touch at hacklist.io@gmail.com</a></h1>
+        </header>
+       </div>
+      </div>
+  </section>
+
+    <footer>
+        <div class="container">
+          
+          <div class="row">
+              <div class="col-lg-4">
+                  <p>© 2014  -  Hacklist.io </p>
+              </div>
+
+              <div class="col-lg-6 pull-right">
+             
+                    <div class="social">
+                        <a class="twitter" href="#"><i class="icon-twitter"></i></a>
+                        <a class="email" href="mailto:hacklist.io@gmail.com"><i class="icon-envelope"></i></a>
+                    </div>
+              </div>
+          </div>
+        </div>
+    </footer>
+
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>

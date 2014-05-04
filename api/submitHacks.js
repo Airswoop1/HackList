@@ -45,6 +45,7 @@ var submitHacks = (function(){
         request.additional_info = req.param('additional_info');
         request.consulting = req.param('consulting');
         request.image_location = "http://hackimages.blob.core.windows.net/images/"+image_file_name;
+        request.hack_email = req.param("hack_email");
         addHackToDB(request, function(err, result){
 
             if(err){
