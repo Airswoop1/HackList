@@ -59,7 +59,7 @@
       <file leaf-file-name="package.json" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="31" selection-start="298" selection-end="298" vertical-scroll-proportion="0.29680365" vertical-offset="0" max-vertical-offset="657">
+            <state line="11" column="3" selection-start="251" selection-end="251" vertical-scroll-proportion="0.25114155" vertical-offset="0" max-vertical-offset="657">
               <folding />
             </state>
           </provider>
@@ -90,10 +90,8 @@
       <file leaf-file-name="registerUser.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/registerUser.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="24" selection-start="2310" selection-end="2368" vertical-scroll-proportion="0.0" vertical-offset="1080" max-vertical-offset="2880">
-              <folding>
-                <element signature="e#0#42#0" expanded="false" />
-              </folding>
+            <state line="127" column="10" selection-start="4171" selection-end="4171" vertical-scroll-proportion="0.0" vertical-offset="1530" max-vertical-offset="2910">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -143,7 +141,6 @@
         <option value="$PROJECT_DIR$/node_modules/api.js" />
         <option value="$PROJECT_DIR$/mongoDB.js" />
         <option value="$PROJECT_DIR$/public/index_form.js" />
-        <option value="$PROJECT_DIR$/api/registerUser.js" />
         <option value="$PROJECT_DIR$/api/index.js" />
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/node_modules/request/index.js" />
@@ -157,6 +154,7 @@
         <option value="$PROJECT_DIR$/public/js/hl_socket_client.js" />
         <option value="$PROJECT_DIR$/hl_socket.js" />
         <option value="$PROJECT_DIR$/api/notifySeller.js" />
+        <option value="$PROJECT_DIR$/api/registerUser.js" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
@@ -345,7 +343,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13304721" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13304721" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -518,15 +516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/registerUser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="24" selection-start="2310" selection-end="2368" vertical-scroll-proportion="0.0" vertical-offset="1080" max-vertical-offset="2880">
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/getProjects.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="50" column="5" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.0" vertical-offset="159" max-vertical-offset="840">
@@ -552,9 +541,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/api/registerUser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="10" selection-start="4171" selection-end="4171" vertical-scroll-proportion="0.0" vertical-offset="1530" max-vertical-offset="2910">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="31" selection-start="298" selection-end="298" vertical-scroll-proportion="0.29680365" vertical-offset="0" max-vertical-offset="657">
+        <state line="11" column="3" selection-start="251" selection-end="251" vertical-scroll-proportion="0.25114155" vertical-offset="0" max-vertical-offset="657">
           <folding />
         </state>
       </provider>

@@ -2,7 +2,7 @@
  * Created by airswoop1 on 5/3/14.
  */
 var api = require('./api.js');
-var bcrypt = require('bcrypt');
+//var bcrypt = require('bcrypt');
 var mongo = require('../mongoDB.js');
 
 var registerUser = (function(){
@@ -88,12 +88,12 @@ var registerUser = (function(){
             uploadImageToBlobStorage(request.image);
         }
 
-        bcrypt.genSalt(10, function(err, salt) {
+        /*bcrypt.genSalt(10, function(err, salt) {
 
             bcrypt.hash(request.password, salt, function(err, hash) {
 
                 // Store hash in your password DB.
-                request.password = hash;
+                request.password = hash;*/
 
                 addUserToDB(request, function(err, result_of_add_user){
 
@@ -124,8 +124,8 @@ var registerUser = (function(){
                     }
 
                 })
-            });
-        });
+           // });
+        //});
 
     }
 
