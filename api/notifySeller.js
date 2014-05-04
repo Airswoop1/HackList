@@ -84,7 +84,7 @@ var notifySeller = (function(){
                             callback(null,true,doc);
                         }
                         else{
-                            callback(null,false, doc);
+                            callback(null,false , doc);
                         }
 
 

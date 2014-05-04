@@ -50,7 +50,7 @@ function updateProjectsContainer(data){
 
         var third = "<p class='box-1'><b>Framework:</b>";
 
-        for(var b in data[hack].fameworks){
+        for(var b in data[hack].frameworks){
             third += "<span class='mini-button'>" + data[hack].frameworks[b] + "</span>";
         }
         third += "</p>"

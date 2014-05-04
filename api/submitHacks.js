@@ -108,11 +108,14 @@ var submitHacks = (function(){
 
     function uploadHackImageToBlob(req, image_file_name){
 
-        var file_location = req.files.hack_image.path;
+        //var file_location = req.files.hack_image.path;
+        var file_location = req;
+
 
         var blobService = azure.createBlobService(account, storage_key);
         blobService.createBlockBlobFromFile("images", image_file_name, file_location, function(error){
             if(error){
+                console.log(error);
                 console.log("Error adding image upload");
             }
             else{
@@ -125,7 +128,8 @@ var submitHacks = (function(){
 
     return {
         "execute": execute,
-        "addhackToDB" : addHackToDB
+        "addhackToDB" : addHackToDB,
+        "uploadHackImageToBlob":uploadHackImageToBlob
     }
 
 }())
