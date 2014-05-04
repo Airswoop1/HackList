@@ -5,11 +5,10 @@ var http = require("http");
 var path = require("path");
 var api = require("./api/api.js");
 
-console.log(api.submitHack);
-
 var app = express();
-
 var server = http.createServer(app);
+var hl_socket = require("./hl_socket.js")(server);
+
 
 app.set('port', process.env.PORT || 1337);
 
@@ -17,7 +16,7 @@ app.set('view engine', 'html');
 app.use(express.favicon());
 app.use(express.logger('dev'));
 app.use(express.urlencoded());
-//app.use(express.bodyParser());
+app.use(express.bodyParser());
 //app.use(express.json());
 //app.use(express.urlencoded());
 //app.use(express.methodOverride());
@@ -27,13 +26,11 @@ app.use(express.static('public'));
 app.set('views', path.join(__dirname, 'views'));
 
 
-app.get("/",function(req,res){
-    res.render('views/index');
-});
-
-
+app.get("/",api.index.execute);
 
 app.post("/submitHack", api.submitHack.execute);
+
+app.post("/registerUser",api.registerUser.execute);
 
 
 

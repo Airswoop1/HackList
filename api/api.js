@@ -3,10 +3,13 @@
  */
 var index = require("./index.js");
 var submitHack = require("./submitHacks.js");
+var registerUser = require("./registerUser.js");
 
 var api = {
     "index":index,
-    "submitHack":submitHack
+    "registerUser":registerUser,
+    "submitHack":submitHack,
+    "notifySeller":notifySeller
 }
 
 module.exports = api;

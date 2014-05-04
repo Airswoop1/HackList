@@ -17,7 +17,7 @@ $(document).ready(function() {
         {
             FieldCount++; //text box added increment
             //add input box
-            $(InputsWrapper).append('<div><input type="text" name="mytext[]" id="field_'+ FieldCount +'" value="Text '+ FieldCount +'"/><a href="#" class="removeclass">&times;</a></div>');
+            $(InputsWrapper).append('<div><input type="text" name="apis[]" id="field_'+ FieldCount +'" value="Text '+ FieldCount +'"/><a href="#" class="removeclass">&times;</a></div>');
             x++; //text box increment
         }
         return false;

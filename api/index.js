@@ -5,7 +5,7 @@
 var index = (function(){
 
     var execute = function(req, res){
-        res.render("index.html");
+        res.render("views/index.html");
     }
 
     return{

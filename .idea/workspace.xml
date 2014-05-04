@@ -23,79 +23,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="server.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="31" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hl_socket.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hl_socket.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="0" selection-start="225" selection-end="226" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+              <folding>
+                <element signature="e#0#42#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="notifySeller.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api/notifySeller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="72" column="23" selection-start="1897" selection-end="1897" vertical-scroll-proportion="0.52863437" vertical-offset="45" max-vertical-offset="900">
+              <folding>
+                <element signature="e#0#42#0" expanded="false" />
+                <element signature="e#297#1490#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="api.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/api.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="18" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-              <folding>
-                <element signature="e#0#42#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="submitHacks.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/submitHacks.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="27" selection-start="941" selection-end="941" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1305">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mongoDB.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mongoDB.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="821" selection-end="821" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-              <folding>
-                <element signature="e#0#42#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="5" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-              <folding>
-                <element signature="e#0#42#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="38" selection-start="671" selection-end="671" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="750">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="server.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="16" selection-start="735" selection-end="735" vertical-scroll-proportion="0.6035242" vertical-offset="39" max-vertical-offset="720">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="3" selection-start="202" selection-end="202" vertical-scroll-proportion="-4.375" vertical-offset="30" max-vertical-offset="255">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index_form.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index_form.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="73" selection-start="667" selection-end="673" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+            <state line="11" column="31" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
               </folding>
@@ -114,14 +77,17 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/node_modules/api.js" />
-        <option value="$PROJECT_DIR$/public/index_form.js" />
-        <option value="$PROJECT_DIR$/api/index.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/api/api.js" />
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/mongoDB.js" />
+        <option value="$PROJECT_DIR$/public/index_form.js" />
+        <option value="$PROJECT_DIR$/api/registerUser.js" />
+        <option value="$PROJECT_DIR$/api/index.js" />
         <option value="$PROJECT_DIR$/api/submitHacks.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/hl_socket.js" />
         <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/api/api.js" />
+        <option value="$PROJECT_DIR$/api/notifySeller.js" />
       </list>
     </option>
   </component>
@@ -188,7 +154,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -261,13 +227,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="22" width="1419" height="801" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13304721" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13304721" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -297,45 +263,41 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/api/api.js">
+    <entry file="file://$PROJECT_DIR$/public/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="18" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="681">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index_form.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/socket.io/lib/socket.io.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="73" selection-start="667" selection-end="673" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
+        <state line="45" column="76" selection-start="932" selection-end="1001" vertical-scroll-proportion="0.5506608" vertical-offset="300" max-vertical-offset="2235">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/node_modules/socket.io/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="3" selection-start="202" selection-end="202" vertical-scroll-proportion="-4.375" vertical-offset="30" max-vertical-offset="255">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="681">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="38" selection-start="671" selection-end="671" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="750">
+        <state line="11" column="49" selection-start="438" selection-end="438" vertical-scroll-proportion="0.24657534" vertical-offset="3" max-vertical-offset="930">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="5" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+        <state line="7" column="39" selection-start="147" selection-end="147" vertical-scroll-proportion="0.11013216" vertical-offset="0" max-vertical-offset="681">
           <folding>
             <element signature="e#0#42#0" expanded="false" />
           </folding>
@@ -344,7 +306,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mongoDB.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="821" selection-end="821" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+        <state line="26" column="0" selection-start="821" selection-end="821" vertical-scroll-proportion="0.52863437" vertical-offset="0" max-vertical-offset="681">
           <folding>
             <element signature="e#0#42#0" expanded="false" />
           </folding>
@@ -353,15 +315,80 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/submitHacks.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="27" selection-start="941" selection-end="941" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1305">
+        <state line="33" column="36" selection-start="1076" selection-end="1076" vertical-scroll-proportion="-1.092511" vertical-offset="1014" max-vertical-offset="1725">
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+            <element signature="e#310#717#0" expanded="false" />
+            <element signature="e#3357#3493#0" expanded="false" />
+            <element signature="e#3519#3703#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="1" selection-start="227" selection-end="227" vertical-scroll-proportion="0.25114155" vertical-offset="0" max-vertical-offset="657">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index_form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="3" selection-start="1112" selection-end="1112" vertical-scroll-proportion="0.6961078" vertical-offset="0" max-vertical-offset="668">
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/azure/node_modules/request/tests/ssl/ca/server.cnf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="681">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="16" selection-start="735" selection-end="735" vertical-scroll-proportion="0.6035242" vertical-offset="39" max-vertical-offset="720">
+        <state line="24" column="31" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/registerUser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="174" column="0" selection-start="4226" selection-end="5789" vertical-scroll-proportion="0.6475771" vertical-offset="2139" max-vertical-offset="2880">
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="31" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hl_socket.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="225" selection-end="226" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/notifySeller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="23" selection-start="1897" selection-end="1897" vertical-scroll-proportion="0.52863437" vertical-offset="45" max-vertical-offset="900">
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+            <element signature="e#297#1490#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
