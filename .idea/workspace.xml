@@ -104,13 +104,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="projects.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="projects.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/projects.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="23" selection-start="1660" selection-end="1660" vertical-scroll-proportion="0.77294683" vertical-offset="0" max-vertical-offset="4470">
+            <state line="18" column="16" selection-start="786" selection-end="786" vertical-scroll-proportion="-6.25" vertical-offset="120" max-vertical-offset="4470">
               <folding>
                 <element signature="n#style#0;n#a#0;n#li#5;n#ul#0;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hl_socket_client.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/js/hl_socket_client.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="62" selection-start="157" selection-end="157" vertical-scroll-proportion="0.093023255" vertical-offset="0" max-vertical-offset="1545">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -119,17 +128,6 @@
         <entry file="file://$PROJECT_DIR$/public/faq.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="60" column="21" selection-start="2403" selection-end="2768" vertical-scroll-proportion="-10.625" vertical-offset="645" max-vertical-offset="2595">
-              <folding>
-                <element signature="n#style#0;n#a#0;n#li#5;n#ul#0;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/contact.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="18" selection-start="1706" selection-end="1706" vertical-scroll-proportion="-20.625" vertical-offset="0" max-vertical-offset="1830">
               <folding>
                 <element signature="n#style#0;n#a#0;n#li#5;n#ul#0;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -160,7 +158,6 @@
         <option value="$PROJECT_DIR$/api/registerUser.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/api/submitHacks.js" />
-        <option value="$PROJECT_DIR$/public/js/hl_socket_client.js" />
         <option value="$PROJECT_DIR$/api/notifySeller.js" />
         <option value="$PROJECT_DIR$/api/getProjects.js" />
         <option value="$PROJECT_DIR$/public/about.html" />
@@ -170,6 +167,7 @@
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/buyers.html" />
         <option value="$PROJECT_DIR$/public/projects.html" />
+        <option value="$PROJECT_DIR$/public/js/hl_socket_client.js" />
       </list>
     </option>
   </component>
@@ -277,7 +275,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -292,20 +290,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TCDisrupt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TCDisrupt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -539,13 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/hl_socket_client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="25" selection-start="68" selection-end="68" vertical-scroll-proportion="-1.7307693" vertical-offset="0" max-vertical-offset="1530">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="37" selection-start="65" selection-end="65" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="180">
@@ -560,19 +537,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/notifySeller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="48" selection-start="2600" selection-end="2600" vertical-scroll-proportion="-22.653847" vertical-offset="701" max-vertical-offset="2490">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="18" selection-start="1706" selection-end="1706" vertical-scroll-proportion="-20.625" vertical-offset="0" max-vertical-offset="1830">
           <folding>
             <element signature="n#style#0;n#a#0;n#li#5;n#ul#0;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/faq.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="21" selection-start="2403" selection-end="2768" vertical-scroll-proportion="-10.625" vertical-offset="645" max-vertical-offset="2595">
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#5;n#ul#0;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/registration_part1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2445">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/buyers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="179" column="16" selection-start="8205" selection-end="8205" vertical-scroll-proportion="-27.5" vertical-offset="1830" max-vertical-offset="3330">
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#5;n#ul#0;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#center#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#center#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="16" selection-start="2458" selection-end="2822" vertical-scroll-proportion="-5.759494" vertical-offset="370" max-vertical-offset="2760">
+          <folding>
+            <element signature="n#style#0;n#li#4;n#ul#0;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#5;n#ul#0;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#5;n#ul#0;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/notifySeller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="48" selection-start="2600" selection-end="2600" vertical-scroll-proportion="-22.653847" vertical-offset="701" max-vertical-offset="2490">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -607,50 +622,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="16" selection-start="2458" selection-end="2822" vertical-scroll-proportion="-5.759494" vertical-offset="370" max-vertical-offset="2760">
-          <folding>
-            <element signature="n#style#0;n#li#4;n#ul#0;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#5;n#ul#0;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#5;n#ul#0;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/buyers.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="179" column="16" selection-start="8205" selection-end="8205" vertical-scroll-proportion="-27.5" vertical-offset="1830" max-vertical-offset="3330">
-          <folding>
-            <element signature="n#style#0;n#a#0;n#li#5;n#ul#0;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#center#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#center#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/registration_part1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2445">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/faq.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="21" selection-start="2403" selection-end="2768" vertical-scroll-proportion="-10.625" vertical-offset="645" max-vertical-offset="2595">
-          <folding>
-            <element signature="n#style#0;n#a#0;n#li#5;n#ul#0;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/projects.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="23" selection-start="1660" selection-end="1660" vertical-scroll-proportion="0.77294683" vertical-offset="0" max-vertical-offset="4470">
+        <state line="18" column="16" selection-start="786" selection-end="786" vertical-scroll-proportion="-6.25" vertical-offset="120" max-vertical-offset="4470">
           <folding>
             <element signature="n#style#0;n#a#0;n#li#5;n#ul#0;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/hl_socket_client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="62" selection-start="157" selection-end="157" vertical-scroll-proportion="0.093023255" vertical-offset="0" max-vertical-offset="1545">
+          <folding />
         </state>
       </provider>
     </entry>

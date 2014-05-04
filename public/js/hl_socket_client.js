@@ -1,7 +1,8 @@
 /**
  * Created by airswoop1 on 5/4/14.
  */
-var socket = io.connect('http://localhost:1337');
+//var socket = io.connect('http://localhost:1337');
+var socket = io.connect('http://hacklist.azurewebsites.net/');
 
 setTimeout(function(){
     socket.emit('get_projects',{"user":""});
